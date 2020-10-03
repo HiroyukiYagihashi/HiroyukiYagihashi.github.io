@@ -39,8 +39,6 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#experience') Experience
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#education') Education
-                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#interests') Interests
@@ -60,7 +58,7 @@ html(lang='en')
                         | 1998-10-19 · (+81)70-2024-1019 ·
                         a(href='mailto:hey@hiroy.uk') hey@hiroy.uk
                     p.lead.mb-5
-                        | ReactでのWebクライアント開発とパブリッククラウドを用いたインフラ/DevOps構築を得意とするソフトウェアエンジニア。Railsを用いたAPIサーバー開発、Androidアプリ開発も対応可。主にシステム全体の設計やパフォーマンスチューニングを行っています。
+                        | ReactでのWebクライアント開発とパブリッククラウドを用いたインフラ/DevOps構築を得意とするソフトウェアエンジニア。Railsを用いたAPIサーバー開発、Androidアプリ開発も対応可。主にシステム全体の設計やパフォーマンスの最適化を行っています。
                     .social-icons
                         a.social-icon(href='https://www.linkedin.com/in/hiroyuki-yagihashi-6b8388186')
                             i.fab.fa-linkedin-in
@@ -120,78 +118,81 @@ html(lang='en')
 
             hr.m-0
 
-            // Education
-            section#education.resume-section
-                .resume-section-content
-                    h2.mb-5 Education
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
-                        .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
-                        .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
-
-            hr.m-0
-
             // Skills
             section#skills.resume-section
                 .resume-section-content
                     h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        li.list-inline-item
-                            i.fab.fa-html5
-                        li.list-inline-item
-                            i.fab.fa-css3-alt
-                        li.list-inline-item
-                            i.fab.fa-js-square
-                        li.list-inline-item
-                            i.fab.fa-angular
-                        li.list-inline-item
-                            i.fab.fa-react
-                        li.list-inline-item
-                            i.fab.fa-node-js
-                        li.list-inline-item
-                            i.fab.fa-sass
-                        li.list-inline-item
-                            i.fab.fa-less
-                        li.list-inline-item
-                            i.fab.fa-wordpress
-                        li.list-inline-item
-                            i.fab.fa-gulp
-                        li.list-inline-item
-                            i.fab.fa-grunt
-                        li.list-inline-item
-                            i.fab.fa-npm
-                    .subheading.mb-3 Workflow
+                    .subheading.mb-3 Programming Languages & Markup Languages & Tools & Other
                     ul.fa-ul.mb-0
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Mobile-First, Responsive Design
+                            | JavaScript
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Cross Browser Testing & Debugging
+                            | TypeScript
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Cross Functional Teams
+                            | Ruby
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Agile Development & Scrum
+                            | Golang
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Rust(API server)
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Java(Android)
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Kotlin(Android)
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | HTML/XML/CSS
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | HCL
+
+                    section.skills-space
+
+                    .subheading.mb-3 Technology
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | React (Next.js, CRA)
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | AWS(EC2, ALB, RDS, ECS, etc)
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | API server (Rails, Golang, Node.js, Rust, etc)
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Infrastructure as Code (Ansible, Terraform, Serverless Framework, etc)
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | CI/CD (GitOps, CircleCI, GitHub Actions, CodePipeline, CodeBuild, etc)
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Container (Docker, Kubernetes)
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Database/KVS (MySQL, Cloud Firestore, Firebase Realtime Database, Redis, etc)
 
             hr.m-0
 
@@ -200,9 +201,11 @@ html(lang='en')
                 .resume-section-content
                     h2.mb-5 Interests
                     p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+                        | より影響範囲の広いコードを書くことに興味があります。影響範囲にはユーザーと開発者の両方が含まれており、言い換えると“より多くのユーザーや開発者が使用しているサービスやライブラリを書くことに興味がある“となります。
+                    p.md-0
+                        | 担当領域の広さに比例してやる気が高まる傾向があります。幅広い領域を担当することでより全体最適な判断を下すことができると考えています。
                     p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+                        | 新しい技術を触ることが好きな傾向にあります。新しい技術を使用することによって今までは極めて困難だった実装が簡単に実装できることや開発者体験が良くなることが多く、そこに楽しみを感じています。
 
             hr.m-0
 
