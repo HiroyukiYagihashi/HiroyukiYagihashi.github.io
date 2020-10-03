@@ -5,6 +5,7 @@ html(lang='en')
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        //TODO: Add meta informations https://github.com/HiroyukiYagihashi/HiroyukiYagihashi.github.io/issues/4
         meta(name='description', content='')
         meta(name='author', content='')
 
@@ -36,14 +37,14 @@ html(lang='en')
                 ul.navbar-nav
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#about') About
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    //li.nav-item
+                    //    a.nav-link.js-scroll-trigger(href='#experience') Experience
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#interests') Interests
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#awards') Awards
+                    //li.nav-item
+                    //    a.nav-link.js-scroll-trigger(href='#awards') Awards
 
         // Page Content
         .container-fluid.p-0
@@ -75,48 +76,107 @@ html(lang='en')
 
             hr.m-0
 
+            //TODO: Update Experience section https://github.com/HiroyukiYagihashi/HiroyukiYagihashi.github.io/issues/5
             // Experience
-            section#experience.resume-section
-               .resume-section-content
-                    h2.mb-5 Experience
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Senior Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-                        .flex-shrink-0
-                            span.text-primary March 2013 - Present
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-                        .flex-shrink-0
-                            span.text-primary December 2011 - March 2013
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Junior Web Designer
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
-                        .flex-shrink-0
-                            span.text-primary July 2010 - December 2011
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 Web Design Intern
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
-                        .flex-shrink-0
-                            span.text-primary September 2008 - June 2010
-
-            hr.m-0
+            //section#experience.resume-section
+            //   .resume-section-content
+            //        h2.mb-5 Experience
+            //
+            //        // TODO: Add company column https://github.com/HiroyukiYagihashi/HiroyukiYagihashi.github.io/issues/2
+            //
+            //        .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+            //            .flex-grow-1
+            //                h3.mb-0 住宅購入補助Webサービス開発
+            //                .subheading.mb-3 Caraquri
+            //                p
+            //                    | 実装内容
+            //                ul.fa-ul.mb-0
+            //                    li
+            //                        span.fa-li
+            //                            i.fas.fa-check
+            //                        | React (CRA)
+            //                    li
+            //                        span.fa-li
+            //                            i.fas.fa-check
+            //                        | Rails
+            //            .flex-shrink-0
+            //                span.text-primary February 2020 - May 2020
+            //
+            //        .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+            //            .flex-grow-1
+            //                h3.mb-0 眼鏡購入補助APIサーバー開発
+            //                .subheading.mb-3 Caraquri
+            //                p
+            //                    | 実装内容
+            //                ul.fa-ul.md-0
+            //                    li
+            //                        span.fa-li
+            //                            i.fas.fa-check
+            //                        | Rails
+            //            .flex-shrink-0
+            //                span.text-primary December 2019 - March 2020
+            //
+            //        .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+            //            .flex-grow-1
+            //                h3.mb-0 動画メディアのWeb/Android開発
+            //                .subheading.mb-3 Caraquri
+            //                p
+            //                    | 実装内容
+            //                ul.fa-ul.md-0
+            //                    li
+            //                        span.fa-li
+            //                            i.fas.fa-check
+            //                        | Java (Android)
+            //                    li
+            //                        span.fa-li
+            //                            i.fas.fa-check
+            //                        | JavaScript (jQuery)
+            //            .flex-shrink-0
+            //                span.text-primary July 2010 - December 2011
+            //
+            //        .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+            //            .flex-grow-1
+            //                h3.mb-0 宿泊管理アプリ
+            //                .subheading.mb-3 Caraquri
+            //                p
+            //                    | 実装内容
+            //
+            //                ul.fa-ul.mb-0
+            //                    li
+            //                        span.fa-li
+            //                            i.fas.fa-check
+            //                        | React
+            //                    li
+            //                        span.fa-li
+            //                            i.fas.fa-check
+            //                        | Rails
+            //                    li
+            //                        span.fa-li
+            //                            i.fas.fa-check
+            //                        | AWS (Ansible, Terraform)
+            //                    li
+            //                        span.fa-li
+            //                            i.fas.fa-check
+            //                        | CI/CD(CIOps, CircleCI, Capistrano)
+            //
+            //            .flex-shrink-0
+            //                span.text-primary February 2020 - March 2013
+            //
+            //        .d-flex.flex-column.flex-md-row.justify-content-between
+            //            .flex-grow-1
+            //                h3.mb-0 インターン
+            //                .subheading.mb-3 Taliki
+            //                p
+            //                    | 実装内容
+            //                ul.fa-ul.mb-0
+            //                    li
+            //                        span.fa-li
+            //                            i.fas.fa-check
+            //                        | AWS
+            //            .flex-shrink-0
+            //                span.text-primary June 2018 - March 2019
+            //
+            //hr.m-0
 
             // Skills
             section#skills.resume-section
@@ -209,49 +269,54 @@ html(lang='en')
 
             hr.m-0
 
+            //TODO: Update Awards https://github.com/HiroyukiYagihashi/HiroyukiYagihashi.github.io/issues/6
             // Awards
-            section#awards.resume-section
-                .resume-section-content
-                    h2.mb-5 Awards & Certifications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st
-                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st
-                            | Place - James Buchanan High School - Hackathon 2006
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd
-                            | Place - James Buchanan High School - Hackathon 2005
+            //section#awards.resume-section
+            //    .resume-section-content
+            //        h2.mb-5 Awards & Certifications
+            //        ul.fa-ul.mb-0
+            //            li
+            //                span.fa-li
+            //                    i.fas.fa-trophy.text-warning
+            //                | Google Analytics Certified Developer
+            //            li
+            //                span.fa-li
+            //                    i.fas.fa-trophy.text-warning
+            //                | Mobile Web Specialist - Google Certification
+            //            li
+            //                span.fa-li
+            //                    i.fas.fa-trophy.text-warning
+            //                | 1
+            //                sup st
+            //                | Place - University of Colorado Boulder - Emerging Tech Competition 2009
+            //            li
+            //                span.fa-li
+            //                    i.fas.fa-trophy.text-warning
+            //                | 1
+            //                sup st
+            //                | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+            //            li
+            //                span.fa-li
+            //                    i.fas.fa-trophy.text-warning
+            //                | 2
+            //                sup nd
+            //                | Place - University of Colorado Boulder - Emerging Tech Competition 2008
+            //            li
+            //                span.fa-li
+            //                    i.fas.fa-trophy.text-warning
+            //                | 1
+            //                sup st
+            //                | Place - James Buchanan High School - Hackathon 2006
+            //            li
+            //                span.fa-li
+            //                    i.fas.fa-trophy.text-warning
+            //                | 3
+            //                sup rd
+            //                | Place - James Buchanan High School - Hackathon 2005
+            //
+            //hr.m-0
+
+            //TODO: Add OSS section https://github.com/HiroyukiYagihashi/HiroyukiYagihashi.github.io/issues/3
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
